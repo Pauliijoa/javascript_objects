@@ -22,7 +22,7 @@ var obj = {}
 los arreglos se declaran utilizando
 `[]` y los objetos se declaran con llaves `{}`.
 
-los arreglos tienen sus elemtos ordenados por indice en cambio los objetos no tinee indice sus elemtos se rescatan u obtienes mediente 
+los arreglos tienen sus elemtos ordenados por indice en cambio los objetos no tiene indice sus elemtos se rescatan u obtienes mediente 
 **llaves**. Ejemplo 
 
 ``` javascript
@@ -34,7 +34,12 @@ var hero = {
 console.log(hero["name"])
 console.log(hero["weapon"])
 console.log(hero["hair"])
+```
 
+``` javascript
+console.log(hero.name)
+console.log(hero.weapon)
+console.log(hero.hair)
 ```
 
 
